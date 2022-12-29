@@ -1,0 +1,115 @@
+/* @import url('../../App.css'); */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  background: var(--blue);
+  padding: 1.25rem;
+  height: 100vh;
+  width: 60vw;
+  color: var(--dark-color-text);
+}
+
+/* Right Side */
+.right {
+  background: #ffffff;
+  padding: 10rem;
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--light-color-text);
+}
+
+.right h1 {
+  padding-bottom: 5rem;
+}
+
+.right .formInput {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: .625rem;
+}
+
+.right .formInput label {
+  visibility: hidden;
+}
+
+.right .formInput label.active {
+  visibility: visible;
+  color: var(--light-blue);
+  margin-left: .625rem;
+  font-size: 11pt;
+  margin-bottom: -.6rem;
+  z-index: 1;
+}
+
+.right .formInput input {
+  background: var(--gray);
+  border-radius: .625rem;
+  height: 2.5rem;
+  padding: 0 .625rem 0 .625rem;
+  border-style: none;
+  font-size: 12pt;
+  z-index: 0;
+  color: var(--dark-gray);
+}
+
+.right .formInput input:focus {
+  outline: none;
+}
+
+/* .right .button {
+  margin: ;
+} */
+
+.right .button .login-button {
+  padding: .675rem 1.75rem;
+
+  background: var(--yellow);
+  color: var(--dark-yellow);
+}
+
+.right .checkArea {
+  display: flex;
+  justify-content: space-between;
+  color: var(--dark-gray);
+  font-size: 11pt;
+}
+
+.right .checkArea div {
+  display: flex;
+  align-items: center;
+}
+
+.right .checkArea div .checkbox {
+  margin-right: .5rem;
+  background: var(--gray);
+}
+
+.right .checkArea p {
+  color: var(--light-blue);
+}
+
+.right .divisor {
+  margin: 1.25rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--dark-gray);
+}
+
+.right .divisor hr {
+  background: var(--gray);
+  height: .125rem;
+  width: 45%;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  font-family: 'Heebo', sans-serif;
+}
+
+/* VARIABLES */
+:root {
+  --light-bg-color: #ffffff;
+  --dark-bg-color: #121214;
+
+  --light-color-text: #29343D;
+  --dark-color-text: #e1e1f6;
+
+  --blue: #004885;
+  --light-blue: #0066BD;
+
+  --gray: #f2f2f2;
+  --dark-gray: #929292;
+
+  --yellow: #ffcc14;
+  --dark-yellow: #8a6f0f;
+
+}
+
+
+body {
+  background: var(--dark-bg-color);
+  color: var(--light-color-text);
+}
