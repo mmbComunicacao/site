@@ -1,0 +1,6 @@
+.ramais {
+  width: 100%;
+  background: white;
+  border-radius: var(--default-radius);
+  padding: 1rem;
+}

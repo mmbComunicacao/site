@@ -23,8 +23,8 @@ export function UsoInterno() {
               <Informatives />
             </div>
             
-            <ContentBox />
-            <ContentBox />
+            {/* <ContentBox />
+            <ContentBox /> */}
 
           </div>
 
