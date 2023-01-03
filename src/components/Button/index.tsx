@@ -1,4 +1,4 @@
-import './Primary.css';
+import './styles.css';
 
 type ButtonProps = {
   text: string;

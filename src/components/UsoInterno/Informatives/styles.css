@@ -1,0 +1,38 @@
+.informative_box {
+    height: 12.5rem;
+    width: 50%;
+    background: rgb(27, 113, 205);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: var(--default-radius);
+  
+    display: flex;
+    justify-content: space-between;
+  }
+.informative_box > div {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.informative_box div h2 {
+    font-size: 1.375rem;
+    margin-bottom: 0.4rem;
+  }
+.informative_box div p {
+    font-size: 1.125rem;
+  }
+.informative_box div a {
+    font-size: 1rem;
+    text-decoration: underline;
+    color: white;
+  }
+  
+.informative_box .informative {
+    position: relative;
+    top: -2rem;
+    width: 30rem;
+  
+    display: flex;
+    justify-content: center;
+  }

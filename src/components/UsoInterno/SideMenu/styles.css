@@ -1,0 +1,87 @@
+.hide-content {
+  display: none;
+}
+
+/* SIDE MENU */
+#container_nav_menu {
+    width: 4.5rem;
+    background: rgb(9, 75, 167);
+  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  #container_nav_menu #nav_menu {
+    height: 4rem;
+    width: 100%;
+  
+    background: rgb(4, 35, 79);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #container_nav_menu #nav_menu:hover {
+    background: rgb(5, 15, 29);
+  }
+  
+  #container_nav_menu #nav_menu .nav_menu_hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #container_nav_menu #nav_menu .nav_menu_hamburger > img {
+    height: 1.8rem;
+  }
+  
+  /* MENU OPTIONS */
+  #container_nav_menu #nav_menu_options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    gap: 0.8rem;
+  }
+  
+  #container_nav_menu .nav_menu_option {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+  }
+  
+  #container_nav_menu .nav_menu_option:hover {
+    background: rgb(7, 63, 140);
+  }
+  
+  #container_nav_menu .nav_menu_option img {
+    height: 1.5rem;
+  }
+  
+  /* LOGOUT */
+  #container_nav_menu #nav_menu_logout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  
+  #container_nav_menu #nav_menu_logout a {
+    width: 80%;
+    background: rgb(67, 130, 218);
+  }
+  
+  #container_nav_menu #nav_menu_logout img {
+    width: 100%;
+    overflow: hidden;
+  }
